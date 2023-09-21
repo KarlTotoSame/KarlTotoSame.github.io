@@ -4687,3 +4687,12 @@ input, select, textarea {
 		}
 
 	}
+
+	/* In main.css or noscript.css */
+.tableauPlaceholder {
+    /* Add margin to the top of the Tableau container */
+    margin-top: 20px; /* Adjust the value as needed */
+
+    /* Add padding to the Tableau container to prevent cropping */
+    padding: 10px; /* Adjust the value as needed */
+}
