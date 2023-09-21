@@ -4620,7 +4620,6 @@ input, select, textarea {
 			right: 0;
 			text-align: right;
 			top: 0;
-			vertical-align: middle;
 			width: 7rem;
 		}
 
@@ -4691,8 +4690,9 @@ input, select, textarea {
 	/* In main.css or noscript.css */
 .tableauPlaceholder {
     /* Add margin to the top of the Tableau container */
-    margin-top: 20px; /* Adjust the value as needed */
+    margin-top: 60px;
+	margin-bottom: 60px; /* Adjust the value as needed */
 
     /* Add padding to the Tableau container to prevent cropping */
-    padding: 20px; /* Adjust the value as needed */
+    padding: 0px; /* Adjust the value as needed */
 }
